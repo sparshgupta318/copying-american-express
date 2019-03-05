@@ -1,0 +1,43 @@
+.navbar-light{
+.navbar-nav {
+    .nav-link {
+        color:blue !important;
+    }
+}}
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+fas fa-redo,fas fa-mobile,far fa-credit-card{
+    font-size:50px;color:blue;
+} 
+
+
+
+.imgcontainer{
+    position:relative;
+}
+
+.caption
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+body{
+    position: relative;
+    height:100%;
+}
+#f{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+@media (min-width: 768px) { 
+      .caption{
+        font-size:40px;
+    }
+ }
+ 
+
+
